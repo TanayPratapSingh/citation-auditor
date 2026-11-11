@@ -1,0 +1,1577 @@
+{
+  "created": "2026-11-11T03:45:02+00:00",
+  "cases": "evals/final.json",
+  "seed": 4419,
+  "configs": {
+    "full": {
+      "meta": {
+        "created": "2026-11-11T03:48:15+00:00",
+        "seconds": 192.9,
+        "network_calls": 141,
+        "registry": {
+          "source": "afterlife/data/gold/afterlife.duckdb",
+          "source_modified": "2026-10-29T20:12:36.156555+00:00",
+          "built": "2026-11-11T03:11:59.578726+00:00",
+          "rows": 92097,
+          "by_verdict": {
+            "retracted": 89576,
+            "concern": 1634,
+            "corrected": 634,
+            "disputed": 130,
+            "reinstated": 123
+          }
+        },
+        "models": {
+          "embed": "sentence-transformers/all-MiniLM-L6-v2",
+          "rerank": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+          "nli": "cross-encoder/nli-deberta-v3-base"
+        }
+      },
+      "summary": {
+        "references": 55,
+        "found": 45,
+        "not_found": 10,
+        "web_sources": 0,
+        "retracted": 15,
+        "concern": 0,
+        "disputed": 0,
+        "corrected": 0,
+        "no_abstract": 3,
+        "citing_sentences": 75,
+        "never_cited": 0,
+        "unmatched_markers": 0,
+        "claim_checks": {
+          "not_stated": 42,
+          "supported": 20,
+          "no_abstract": 13
+        }
+      },
+      "metrics": {
+        "fabricated_flagged": {
+          "hit": 10,
+          "of": 10
+        },
+        "real_found_right_doi": {
+          "hit": 44,
+          "of": 45
+        },
+        "real_wrongly_not_found": {
+          "hit": 0,
+          "of": 45
+        },
+        "real_matched_wrong_doi": {
+          "hit": 1,
+          "of": 45
+        },
+        "near_miss_found_right_doi": {
+          "hit": 10,
+          "of": 10
+        },
+        "retracted_flagged": {
+          "hit": 15,
+          "of": 15
+        },
+        "clean_false_retraction_or_concern": {
+          "hit": 0,
+          "of": 30
+        },
+        "true_claim_supported": {
+          "hit": 19,
+          "of": 20
+        },
+        "true_claim_contradicted": {
+          "hit": 0,
+          "of": 20
+        },
+        "misattributed_not_supported": {
+          "hit": 20,
+          "of": 20
+        },
+        "misattributed_contradicted": {
+          "hit": 0,
+          "of": 20
+        },
+        "misattributed_true_source_named": {
+          "hit": 20,
+          "of": 20
+        },
+        "claims_without_abstract": {
+          "hit": 1,
+          "of": 40
+        }
+      },
+      "references": [
+        {
+          "number": 1,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 2,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 3,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 4,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 5,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 6,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 7,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 8,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 9,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 10,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 11,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 12,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 13,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 14,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 15,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 16,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 17,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 18,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 19,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 20,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 21,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 22,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 23,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 24,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 25,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 26,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 27,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 28,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 29,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 30,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 31,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 32,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 33,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 34,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 35,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 36,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": false
+        },
+        {
+          "number": 37,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 38,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 39,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 40,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 41,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 42,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 43,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 44,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 45,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 46,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 47,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 48,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 49,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 50,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 51,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 52,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 53,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 54,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 55,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        }
+      ],
+      "claims": [
+        {
+          "sentence": "The low temperature sintering also enhances the electrical conductivity of Ag=CNT nanocomposites [1].",
+          "ref": 1,
+          "truth": "true",
+          "label": "supported",
+          "elsewhere": []
+        },
+        {
+          "sentence": "Finally, a prototype is manufactured and the test results verify the proposed combined stator design [1].",
+          "ref": 1,
+          "truth": "misattributed",
+          "true_source": 8,
+          "label": "not_stated",
+          "elsewhere": [
+            8
+          ]
+        },
+        {
+          "sentence": "Our finding is consistent with recent experiments conducted by Rocheleau et al. Our study also suggests that the free passage of potassium ions through gap junctions plays an important role in achieving metabolic synchronization between \u03b2-cells [2].",
+          "ref": 2,
+          "truth": "true",
+          "label": "supported",
+          "elsewhere": []
+        },
+        {
+          "sentence": "In order to increase the level of knowledge and attitude of women, awareness raising programme on safe abortion should be conducted through concerned authority [2].",
+          "ref": 2,
+          "truth": "misattributed",
+          "true_source": 9,
+          "label": "not_stated",
+          "elsewhere": [
+            9
+          ]
+        },
+        {
+          "sentence": "Our findings suggest that imposing such local restrictions in the context of the pandemic may contain the pandemic only in the restricted districts while sacrificing economic activities within these districts and public health in neighboring nonrestricted districts [3].",
+          "ref": 3,
+          "truth": "true",
+          "label": "supported",
+          "elsewhere": []
+        },
+        {
+          "sentence": "Overall, this dearomative functionalization offers rapid and controlled formation of molecular complexity, enabling straightforward access to functionalized small molecules from simple and readily available arenes [3].",
+          "ref": 3,
+          "truth": "misattributed",
+          "true_source": 10,
+          "label": "not_stated",
+          "elsewhere": [
+            10
+          ]
+        },
+        {
+          "sentence": "Such a process, common in most International doctoral programs, will assure SEJSD and mastery of a chosen topic area are at the highest level of interdisciplinary and will help encourage the kind of praxis in the real world the EdD should require, especially in the Trumpian era we entered on January 20, 2017 [4].",
+          "ref": 4,
+          "truth": "true",
+          "label": "supported",
+          "elsewhere": []
+        },
+        {
+          "sentence": "It is intriguing that such fatal effects can be evoked in plants by EMFs which are well known as harmless for man at the applied strength and frequency [4].",
+          "ref": 4,
+          "truth": "misattributed",
+          "true_source": 11,
+          "label": "not_stated",
+          "elsewhere": [
+            11
+          ]
+        },
+        {
+          "sentence": "The challenges teachers face in implementing these skills include variations in learning methods, student understanding and awareness, integration of Islamic values, and limited resources [5].",
+          "ref": 5,
+          "truth": "true",
+          "label": "supported",
+          "elsewhere": []
+        },
+        {
+          "sentence": "The composite doped with proper proportion of Ti and Zr together (8 mol% Ti+ 2 mol% Zr) as co-dopants exhibited the highest dehydriding kinetic property and desorption capacity [5].",
+          "ref": 5,
+          "truth": "misattributed",
+          "true_source": 12,
+          "label": "not_stated",
+          "elsewhere": [
+            12
+          ]
+        },
+        {
+          "sentence": "The results show that the participating teachers consider the roles of creating a safe learning environment and offering emotional scaffolding the most important in order to be able to bridge the gap between what they are compelled to do and what they feel they should do [6].",
+          "ref": 6,
+          "truth": "true",
+          "label": "supported",
+          "elsewhere": []
+        },
+        {
+          "sentence": "Fitness centers could make a point of emphasizing that some physical ideals are neither healthy nor realistic, thus strengthening member self-image and preventing social physique anxiety, eating disorders, and negative attitudes toward appearance [6].",
+          "ref": 6,
+          "truth": "misattributed",
+          "true_source": 13,
+          "label": "not_stated",
+          "elsewhere": [
+            13
+          ]
+        },
+        {
+          "sentence": "It was shown that applying a post-bond heat treatment which was able to eliminate the diffusion induced boride precipitates in DAZ and increase the Nb+Al+Ti content of the ISZ improved the aging response and shear strength of the joint [7].",
+          "ref": 7,
+          "truth": "true",
+          "label": "supported",
+          "elsewhere": []
+        },
+        {
+          "sentence": "The principal immunohistochemical methods enlisted in establishing a diagnosis of primary renal synovial sarcoma are summarized [7].",
+          "ref": 7,
+          "truth": "misattributed",
+          "true_source": 14,
+          "label": "not_stated",
+          "elsewhere": [
+            14
+          ]
+        },
+        {
+          "sentence": "Finally, a prototype is manufactured and the test results verify the proposed combined stator design [8].",
+          "ref": 8,
+          "truth": "true",
+          "label": "supported",
+          "elsewhere": []
+        },
+        {
+          "sentence": "The results show whether the system works in the context of home automation to improve comfort, energy efficiency, and all-around user experience [8].",
+          "ref": 8,
+          "truth": "misattributed",
+          "true_source": 15,
+          "label": "not_stated",
+          "elsewhere": [
+            15
+          ]
+        },
+        {
+          "sentence": "In order to increase the level of knowledge and attitude of women, awareness raising programme on safe abortion should be conducted through concerned authority [9].",
+          "ref": 9,
+          "truth": "true",
+          "label": "supported",
+          "elsewhere": []
+        },
+        {
+          "sentence": "The L2 teachers are also recommended to adopt an alternative approach to translation as a form-focused writing task [9].",
+          "ref": 9,
+          "truth": "misattributed",
+          "true_source": 16,
+          "label": "not_stated",
+          "elsewhere": [
+            16
+          ]
+        },
+        {
+          "sentence": "Overall, this dearomative functionalization offers rapid and controlled formation of molecular complexity, enabling straightforward access to functionalized small molecules from simple and readily available arenes [10].",
+          "ref": 10,
+          "truth": "true",
+          "label": "supported",
+          "elsewhere": []
+        },
+        {
+          "sentence": "It is only in the area of the liability for defects of the subject matter of a contract that one can perceive the direct impact of EU law, because in this respect Directive 1999/44/EC applies within the EU [10].",
+          "ref": 10,
+          "truth": "misattributed",
+          "true_source": 17,
+          "label": "not_stated",
+          "elsewhere": [
+            17
+          ]
+        },
+        {
+          "sentence": "It is intriguing that such fatal effects can be evoked in plants by EMFs which are well known as harmless for man at the applied strength and frequency [11].",
+          "ref": 11,
+          "truth": "true",
+          "label": "supported",
+          "elsewhere": []
+        },
+        {
+          "sentence": "In order to constrain the uncertainty in Se deposition fluxes over agricultural soils we should prioritize field campaigns measuring Se emissions, rather than laboratory measurements of Se rate constants [11].",
+          "ref": 11,
+          "truth": "misattributed",
+          "true_source": 18,
+          "label": "not_stated",
+          "elsewhere": [
+            18
+          ]
+        },
+        {
+          "sentence": "The composite doped with proper proportion of Ti and Zr together (8 mol% Ti+ 2 mol% Zr) as co-dopants exhibited the highest dehydriding kinetic property and desorption capacity [12].",
+          "ref": 12,
+          "truth": "true",
+          "label": "supported",
+          "elsewhere": []
+        },
+        {
+          "sentence": "Further, the viscosity measurement was also carried out in the range of 0.1\u2013103Pas [12].",
+          "ref": 12,
+          "truth": "misattributed",
+          "true_source": 19,
+          "label": "not_stated",
+          "elsewhere": [
+            19
+          ]
+        },
+        {
+          "sentence": "Fitness centers could make a point of emphasizing that some physical ideals are neither healthy nor realistic, thus strengthening member self-image and preventing social physique anxiety, eating disorders, and negative attitudes toward appearance [13].",
+          "ref": 13,
+          "truth": "true",
+          "label": "supported",
+          "elsewhere": []
+        },
+        {
+          "sentence": "In this article, we review the literature on the role of KRAS mutation testing for management of patients and demonstrate preliminary data on KRAS mutation status in Kasakhstani patients with colorectal and pancreatic cancer [13].",
+          "ref": 13,
+          "truth": "misattributed",
+          "true_source": 20,
+          "label": "not_stated",
+          "elsewhere": [
+            20
+          ]
+        },
+        {
+          "sentence": "The principal immunohistochemical methods enlisted in establishing a diagnosis of primary renal synovial sarcoma are summarized [14].",
+          "ref": 14,
+          "truth": "true",
+          "label": "supported",
+          "elsewhere": []
+        },
+        {
+          "sentence": "The low temperature sintering also enhances the electrical conductivity of Ag=CNT nanocomposites [14].",
+          "ref": 14,
+          "truth": "misattributed",
+          "true_source": 1,
+          "label": "not_stated",
+          "elsewhere": [
+            1
+          ]
+        },
+        {
+          "sentence": "The results show whether the system works in the context of home automation to improve comfort, energy efficiency, and all-around user experience [15].",
+          "ref": 15,
+          "truth": "true",
+          "label": "supported",
+          "elsewhere": []
+        },
+        {
+          "sentence": "Our finding is consistent with recent experiments conducted by Rocheleau et al. Our study also suggests that the free passage of potassium ions through gap junctions plays an important role in achieving metabolic synchronization between \u03b2-cells [15].",
+          "ref": 15,
+          "truth": "misattributed",
+          "true_source": 2,
+          "label": "not_stated",
+          "elsewhere": [
+            2
+          ]
+        },
+        {
+          "sentence": "The L2 teachers are also recommended to adopt an alternative approach to translation as a form-focused writing task [16].",
+          "ref": 16,
+          "truth": "true",
+          "label": "supported",
+          "elsewhere": []
+        },
+        {
+          "sentence": "Our findings suggest that imposing such local restrictions in the context of the pandemic may contain the pandemic only in the restricted districts while sacrificing economic activities within these districts and public health in neighboring nonrestricted districts [16].",
+          "ref": 16,
+          "truth": "misattributed",
+          "true_source": 3,
+          "label": "not_stated",
+          "elsewhere": [
+            3
+          ]
+        },
+        {
+          "sentence": "It is only in the area of the liability for defects of the subject matter of a contract that one can perceive the direct impact of EU law, because in this respect Directive 1999/44/EC applies within the EU [17].",
+          "ref": 17,
+          "truth": "true",
+          "label": "supported",
+          "elsewhere": []
+        },
+        {
+          "sentence": "Such a process, common in most International doctoral programs, will assure SEJSD and mastery of a chosen topic area are at the highest level of interdisciplinary and will help encourage the kind of praxis in the real world the EdD should require, especially in the Trumpian era we entered on January 20, 2017 [17].",
+          "ref": 17,
+          "truth": "misattributed",
+          "true_source": 4,
+          "label": "not_stated",
+          "elsewhere": [
+            4
+          ]
+        },
+        {
+          "sentence": "In order to constrain the uncertainty in Se deposition fluxes over agricultural soils we should prioritize field campaigns measuring Se emissions, rather than laboratory measurements of Se rate constants [18].",
+          "ref": 18,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The challenges teachers face in implementing these skills include variations in learning methods, student understanding and awareness, integration of Islamic values, and limited resources [18].",
+          "ref": 18,
+          "truth": "misattributed",
+          "true_source": 5,
+          "label": "not_stated",
+          "elsewhere": [
+            5
+          ]
+        },
+        {
+          "sentence": "Further, the viscosity measurement was also carried out in the range of 0.1\u2013103Pas [19].",
+          "ref": 19,
+          "truth": "true",
+          "label": "supported",
+          "elsewhere": []
+        },
+        {
+          "sentence": "The results show that the participating teachers consider the roles of creating a safe learning environment and offering emotional scaffolding the most important in order to be able to bridge the gap between what they are compelled to do and what they feel they should do [19].",
+          "ref": 19,
+          "truth": "misattributed",
+          "true_source": 6,
+          "label": "not_stated",
+          "elsewhere": [
+            6
+          ]
+        },
+        {
+          "sentence": "In this article, we review the literature on the role of KRAS mutation testing for management of patients and demonstrate preliminary data on KRAS mutation status in Kasakhstani patients with colorectal and pancreatic cancer [20].",
+          "ref": 20,
+          "truth": "true",
+          "label": "supported",
+          "elsewhere": []
+        },
+        {
+          "sentence": "It was shown that applying a post-bond heat treatment which was able to eliminate the diffusion induced boride precipitates in DAZ and increase the Nb+Al+Ti content of the ISZ improved the aging response and shear strength of the joint [20].",
+          "ref": 20,
+          "truth": "misattributed",
+          "true_source": 7,
+          "label": "not_stated",
+          "elsewhere": [
+            7
+          ]
+        }
+      ]
+    },
+    "no_registry": {
+      "meta": {
+        "created": "2026-11-11T03:48:15+00:00",
+        "seconds": 0.0,
+        "network_calls": 0,
+        "registry": {},
+        "models": null
+      },
+      "summary": {
+        "references": 55,
+        "found": 45,
+        "not_found": 10,
+        "web_sources": 0,
+        "retracted": 15,
+        "concern": 0,
+        "disputed": 0,
+        "corrected": 0,
+        "no_abstract": 3,
+        "citing_sentences": 75,
+        "never_cited": 0,
+        "unmatched_markers": 0,
+        "claim_checks": {}
+      },
+      "metrics": {
+        "fabricated_flagged": {
+          "hit": 10,
+          "of": 10
+        },
+        "real_found_right_doi": {
+          "hit": 44,
+          "of": 45
+        },
+        "real_wrongly_not_found": {
+          "hit": 0,
+          "of": 45
+        },
+        "real_matched_wrong_doi": {
+          "hit": 1,
+          "of": 45
+        },
+        "near_miss_found_right_doi": {
+          "hit": 10,
+          "of": 10
+        },
+        "retracted_flagged": {
+          "hit": 15,
+          "of": 15
+        },
+        "clean_false_retraction_or_concern": {
+          "hit": 0,
+          "of": 30
+        }
+      },
+      "references": [
+        {
+          "number": 1,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 2,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 3,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 4,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 5,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 6,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 7,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 8,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 9,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 10,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 11,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 12,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 13,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 14,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 15,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 16,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 17,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 18,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 19,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 20,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 21,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 22,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 23,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 24,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 25,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 26,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 27,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 28,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 29,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 30,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 31,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 32,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 33,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 34,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 35,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 36,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": false
+        },
+        {
+          "number": 37,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 38,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 39,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 40,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 41,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 42,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 43,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 44,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 45,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 46,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 47,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 48,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 49,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 50,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 51,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 52,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 53,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 54,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 55,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        }
+      ],
+      "claims": [
+        {
+          "sentence": "The low temperature sintering also enhances the electrical conductivity of Ag=CNT nanocomposites [1].",
+          "ref": 1,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Finally, a prototype is manufactured and the test results verify the proposed combined stator design [1].",
+          "ref": 1,
+          "truth": "misattributed",
+          "true_source": 8,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Our finding is consistent with recent experiments conducted by Rocheleau et al. Our study also suggests that the free passage of potassium ions through gap junctions plays an important role in achieving metabolic synchronization between \u03b2-cells [2].",
+          "ref": 2,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "In order to increase the level of knowledge and attitude of women, awareness raising programme on safe abortion should be conducted through concerned authority [2].",
+          "ref": 2,
+          "truth": "misattributed",
+          "true_source": 9,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Our findings suggest that imposing such local restrictions in the context of the pandemic may contain the pandemic only in the restricted districts while sacrificing economic activities within these districts and public health in neighboring nonrestricted districts [3].",
+          "ref": 3,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Overall, this dearomative functionalization offers rapid and controlled formation of molecular complexity, enabling straightforward access to functionalized small molecules from simple and readily available arenes [3].",
+          "ref": 3,
+          "truth": "misattributed",
+          "true_source": 10,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Such a process, common in most International doctoral programs, will assure SEJSD and mastery of a chosen topic area are at the highest level of interdisciplinary and will help encourage the kind of praxis in the real world the EdD should require, especially in the Trumpian era we entered on January 20, 2017 [4].",
+          "ref": 4,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "It is intriguing that such fatal effects can be evoked in plants by EMFs which are well known as harmless for man at the applied strength and frequency [4].",
+          "ref": 4,
+          "truth": "misattributed",
+          "true_source": 11,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The challenges teachers face in implementing these skills include variations in learning methods, student understanding and awareness, integration of Islamic values, and limited resources [5].",
+          "ref": 5,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The composite doped with proper proportion of Ti and Zr together (8 mol% Ti+ 2 mol% Zr) as co-dopants exhibited the highest dehydriding kinetic property and desorption capacity [5].",
+          "ref": 5,
+          "truth": "misattributed",
+          "true_source": 12,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The results show that the participating teachers consider the roles of creating a safe learning environment and offering emotional scaffolding the most important in order to be able to bridge the gap between what they are compelled to do and what they feel they should do [6].",
+          "ref": 6,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Fitness centers could make a point of emphasizing that some physical ideals are neither healthy nor realistic, thus strengthening member self-image and preventing social physique anxiety, eating disorders, and negative attitudes toward appearance [6].",
+          "ref": 6,
+          "truth": "misattributed",
+          "true_source": 13,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "It was shown that applying a post-bond heat treatment which was able to eliminate the diffusion induced boride precipitates in DAZ and increase the Nb+Al+Ti content of the ISZ improved the aging response and shear strength of the joint [7].",
+          "ref": 7,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The principal immunohistochemical methods enlisted in establishing a diagnosis of primary renal synovial sarcoma are summarized [7].",
+          "ref": 7,
+          "truth": "misattributed",
+          "true_source": 14,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Finally, a prototype is manufactured and the test results verify the proposed combined stator design [8].",
+          "ref": 8,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The results show whether the system works in the context of home automation to improve comfort, energy efficiency, and all-around user experience [8].",
+          "ref": 8,
+          "truth": "misattributed",
+          "true_source": 15,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "In order to increase the level of knowledge and attitude of women, awareness raising programme on safe abortion should be conducted through concerned authority [9].",
+          "ref": 9,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The L2 teachers are also recommended to adopt an alternative approach to translation as a form-focused writing task [9].",
+          "ref": 9,
+          "truth": "misattributed",
+          "true_source": 16,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Overall, this dearomative functionalization offers rapid and controlled formation of molecular complexity, enabling straightforward access to functionalized small molecules from simple and readily available arenes [10].",
+          "ref": 10,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "It is only in the area of the liability for defects of the subject matter of a contract that one can perceive the direct impact of EU law, because in this respect Directive 1999/44/EC applies within the EU [10].",
+          "ref": 10,
+          "truth": "misattributed",
+          "true_source": 17,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "It is intriguing that such fatal effects can be evoked in plants by EMFs which are well known as harmless for man at the applied strength and frequency [11].",
+          "ref": 11,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "In order to constrain the uncertainty in Se deposition fluxes over agricultural soils we should prioritize field campaigns measuring Se emissions, rather than laboratory measurements of Se rate constants [11].",
+          "ref": 11,
+          "truth": "misattributed",
+          "true_source": 18,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The composite doped with proper proportion of Ti and Zr together (8 mol% Ti+ 2 mol% Zr) as co-dopants exhibited the highest dehydriding kinetic property and desorption capacity [12].",
+          "ref": 12,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Further, the viscosity measurement was also carried out in the range of 0.1\u2013103Pas [12].",
+          "ref": 12,
+          "truth": "misattributed",
+          "true_source": 19,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Fitness centers could make a point of emphasizing that some physical ideals are neither healthy nor realistic, thus strengthening member self-image and preventing social physique anxiety, eating disorders, and negative attitudes toward appearance [13].",
+          "ref": 13,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "In this article, we review the literature on the role of KRAS mutation testing for management of patients and demonstrate preliminary data on KRAS mutation status in Kasakhstani patients with colorectal and pancreatic cancer [13].",
+          "ref": 13,
+          "truth": "misattributed",
+          "true_source": 20,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The principal immunohistochemical methods enlisted in establishing a diagnosis of primary renal synovial sarcoma are summarized [14].",
+          "ref": 14,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The low temperature sintering also enhances the electrical conductivity of Ag=CNT nanocomposites [14].",
+          "ref": 14,
+          "truth": "misattributed",
+          "true_source": 1,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The results show whether the system works in the context of home automation to improve comfort, energy efficiency, and all-around user experience [15].",
+          "ref": 15,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Our finding is consistent with recent experiments conducted by Rocheleau et al. Our study also suggests that the free passage of potassium ions through gap junctions plays an important role in achieving metabolic synchronization between \u03b2-cells [15].",
+          "ref": 15,
+          "truth": "misattributed",
+          "true_source": 2,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The L2 teachers are also recommended to adopt an alternative approach to translation as a form-focused writing task [16].",
+          "ref": 16,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Our findings suggest that imposing such local restrictions in the context of the pandemic may contain the pandemic only in the restricted districts while sacrificing economic activities within these districts and public health in neighboring nonrestricted districts [16].",
+          "ref": 16,
+          "truth": "misattributed",
+          "true_source": 3,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "It is only in the area of the liability for defects of the subject matter of a contract that one can perceive the direct impact of EU law, because in this respect Directive 1999/44/EC applies within the EU [17].",
+          "ref": 17,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Such a process, common in most International doctoral programs, will assure SEJSD and mastery of a chosen topic area are at the highest level of interdisciplinary and will help encourage the kind of praxis in the real world the EdD should require, especially in the Trumpian era we entered on January 20, 2017 [17].",
+          "ref": 17,
+          "truth": "misattributed",
+          "true_source": 4,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "In order to constrain the uncertainty in Se deposition fluxes over agricultural soils we should prioritize field campaigns measuring Se emissions, rather than laboratory measurements of Se rate constants [18].",
+          "ref": 18,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The challenges teachers face in implementing these skills include variations in learning methods, student understanding and awareness, integration of Islamic values, and limited resources [18].",
+          "ref": 18,
+          "truth": "misattributed",
+          "true_source": 5,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Further, the viscosity measurement was also carried out in the range of 0.1\u2013103Pas [19].",
+          "ref": 19,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The results show that the participating teachers consider the roles of creating a safe learning environment and offering emotional scaffolding the most important in order to be able to bridge the gap between what they are compelled to do and what they feel they should do [19].",
+          "ref": 19,
+          "truth": "misattributed",
+          "true_source": 6,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "In this article, we review the literature on the role of KRAS mutation testing for management of patients and demonstrate preliminary data on KRAS mutation status in Kasakhstani patients with colorectal and pancreatic cancer [20].",
+          "ref": 20,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "It was shown that applying a post-bond heat treatment which was able to eliminate the diffusion induced boride precipitates in DAZ and increase the Nb+Al+Ti content of the ISZ improved the aging response and shear strength of the joint [20].",
+          "ref": 20,
+          "truth": "misattributed",
+          "true_source": 7,
+          "label": null,
+          "elsewhere": []
+        }
+      ]
+    }
+  }
+}

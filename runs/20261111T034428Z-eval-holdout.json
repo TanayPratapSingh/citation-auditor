@@ -1,0 +1,1505 @@
+{
+  "created": "2026-11-11T03:44:26+00:00",
+  "cases": "evals/holdout.json",
+  "seed": 7310,
+  "configs": {
+    "full": {
+      "meta": {
+        "created": "2026-11-11T03:44:28+00:00",
+        "seconds": 2.2,
+        "network_calls": 2,
+        "registry": {
+          "source": "afterlife/data/gold/afterlife.duckdb",
+          "source_modified": "2026-10-29T20:12:36.156555+00:00",
+          "built": "2026-11-11T03:11:59.578726+00:00",
+          "rows": 92097,
+          "by_verdict": {
+            "retracted": 89576,
+            "concern": 1634,
+            "corrected": 634,
+            "disputed": 130,
+            "reinstated": 123
+          }
+        },
+        "models": null
+      },
+      "summary": {
+        "references": 55,
+        "found": 44,
+        "not_found": 11,
+        "web_sources": 0,
+        "retracted": 15,
+        "concern": 0,
+        "disputed": 0,
+        "corrected": 0,
+        "no_abstract": 3,
+        "citing_sentences": 75,
+        "never_cited": 0,
+        "unmatched_markers": 0,
+        "claim_checks": {}
+      },
+      "metrics": {
+        "fabricated_flagged": {
+          "hit": 10,
+          "of": 10
+        },
+        "real_found_right_doi": {
+          "hit": 44,
+          "of": 45
+        },
+        "real_wrongly_not_found": {
+          "hit": 1,
+          "of": 45
+        },
+        "real_matched_wrong_doi": {
+          "hit": 0,
+          "of": 45
+        },
+        "near_miss_found_right_doi": {
+          "hit": 9,
+          "of": 10
+        },
+        "retracted_flagged": {
+          "hit": 15,
+          "of": 15
+        },
+        "clean_false_retraction_or_concern": {
+          "hit": 0,
+          "of": 30
+        }
+      },
+      "references": [
+        {
+          "number": 1,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 2,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 3,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 4,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 5,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 6,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 7,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 8,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 9,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 10,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 11,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 12,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 13,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 14,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 15,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 16,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 17,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 18,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 19,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 20,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 21,
+          "kind": "near_miss",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 22,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 23,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 24,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 25,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 26,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 27,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 28,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 29,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 30,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 31,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 32,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 33,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 34,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 35,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 36,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 37,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 38,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 39,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 40,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 41,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 42,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 43,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 44,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 45,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 46,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 47,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 48,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 49,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 50,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 51,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 52,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 53,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 54,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 55,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        }
+      ],
+      "claims": [
+        {
+          "sentence": "There are several hundred corrector (fast and slow) magnets and skew quadrupole magnets in storage ring and injector are powered by the same bipolar power converters [1].",
+          "ref": 1,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This novel XCC4471(GGDEF)-c-di-GMP complex structure may serve as a general model for the design of lead compounds to block the DGC activity of GGDEF-domain-containing proteins in X. campestris or other microorganisms that contain multiple GGDEF-domain proteins [1].",
+          "ref": 1,
+          "truth": "misattributed",
+          "true_source": 8,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This research could provide the comprehension about relationship between microstructure and macrotexture of apple cultivars and morphological values for modeling apple parenchyma, contributing to numerical simulation for constitutive relation of fruit [2].",
+          "ref": 2,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "However, compared with Cu/Ag joints with stable mechanical performance suffering aging at 250 \u00b0C, the shear strength of Cu/Zn degraded drastically up to 200 h, and after that it remained almost constant, which can be ascribed to the competitive growth between CuZn 5 and Cu 5 Zn 8 , resulting in collapse and oxidation of CuZn 5  [2].",
+          "ref": 2,
+          "truth": "misattributed",
+          "true_source": 9,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The results suggest that a brief 5-min nature photography activity can effectively reduce mental stress in Chinese university students [3].",
+          "ref": 3,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "These results implicate alternative targeting of MET or SRC as rational strategies for reversing cetuximab resistance in colon cancer [3].",
+          "ref": 3,
+          "truth": "misattributed",
+          "true_source": 10,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "These results just provide a data point for pork producers to evaluate the actual risk of feed being a fomite of PRRSV, PEDV, PDCoV, and TGEV [4].",
+          "ref": 4,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The over-arching application of this method beyond the study site will provide a platform for discussion that addresses the needs of site managers and the expectations of local communities [4].",
+          "ref": 4,
+          "truth": "misattributed",
+          "true_source": 11,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Conclusion We believe that a better knowledge and understanding of epidemiological changes in Italian society could improve our clinical practice, in particular, in order to better customize treatments and therapies [5].",
+          "ref": 5,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "DOI: https://doi.org/10.5826/dpc.1303a152 [5].",
+          "ref": 5,
+          "truth": "misattributed",
+          "true_source": 12,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Some countries may gain if China's economy continues expanding, while others, like the United States, are the most sensitive to the trade policy of China [6].",
+          "ref": 6,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "High levels of troponin in the blood, both before and after training or competition, may be associated with the presence of macrotroponin [6].",
+          "ref": 6,
+          "truth": "misattributed",
+          "true_source": 13,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The overall findings of the study conclude that these five factors influence the adoption of e-learning technologies [7].",
+          "ref": 7,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "IL-6 and IL-8 found to be increase along with tonsillitis severity i.e. the grade 3, 4 tonsillitis have high level of IL-6 and IL-8 [7].",
+          "ref": 7,
+          "truth": "misattributed",
+          "true_source": 14,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This novel XCC4471(GGDEF)-c-di-GMP complex structure may serve as a general model for the design of lead compounds to block the DGC activity of GGDEF-domain-containing proteins in X. campestris or other microorganisms that contain multiple GGDEF-domain proteins [8].",
+          "ref": 8,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "It is shown that on the basis of the existing domestic gas-turbine equipment, power plants for combined generation of electricity, heat, and cold can be created that are significantly superior in their performance to the best technologies in the world [8].",
+          "ref": 8,
+          "truth": "misattributed",
+          "true_source": 15,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "However, compared with Cu/Ag joints with stable mechanical performance suffering aging at 250 \u00b0C, the shear strength of Cu/Zn degraded drastically up to 200 h, and after that it remained almost constant, which can be ascribed to the competitive growth between CuZn 5 and Cu 5 Zn 8 , resulting in collapse and oxidation of CuZn 5  [9].",
+          "ref": 9,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "When the confining pressure ratio is greater than 1.6, the plastic area is butterfly shaped, and the elliptic boundary equation is no longer applicable [9].",
+          "ref": 9,
+          "truth": "misattributed",
+          "true_source": 16,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "These results implicate alternative targeting of MET or SRC as rational strategies for reversing cetuximab resistance in colon cancer [10].",
+          "ref": 10,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Organizations that want to strike a balance between structure and inspiration in cultivating a motivated and engaged workforce would do well to study the relationship between transactional leadership and employee motivation [10].",
+          "ref": 10,
+          "truth": "misattributed",
+          "true_source": 17,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The over-arching application of this method beyond the study site will provide a platform for discussion that addresses the needs of site managers and the expectations of local communities [11].",
+          "ref": 11,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "With refinement the methodology should also enable patterning of novel graphene electronic and optoelectronic devices [11].",
+          "ref": 11,
+          "truth": "misattributed",
+          "true_source": 18,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "DOI: https://doi.org/10.5826/dpc.1303a152 [12].",
+          "ref": 12,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This article proposes yet another element of WBP, that of 'oxygen balance' [12].",
+          "ref": 12,
+          "truth": "misattributed",
+          "true_source": 19,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "High levels of troponin in the blood, both before and after training or competition, may be associated with the presence of macrotroponin [13].",
+          "ref": 13,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This paper describes the sensitivity of the Umkehr retrievals with respect to the proposed ozone cross-section changes [13].",
+          "ref": 13,
+          "truth": "misattributed",
+          "true_source": 20,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "IL-6 and IL-8 found to be increase along with tonsillitis severity i.e. the grade 3, 4 tonsillitis have high level of IL-6 and IL-8 [14].",
+          "ref": 14,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "There are several hundred corrector (fast and slow) magnets and skew quadrupole magnets in storage ring and injector are powered by the same bipolar power converters [14].",
+          "ref": 14,
+          "truth": "misattributed",
+          "true_source": 1,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "It is shown that on the basis of the existing domestic gas-turbine equipment, power plants for combined generation of electricity, heat, and cold can be created that are significantly superior in their performance to the best technologies in the world [15].",
+          "ref": 15,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This research could provide the comprehension about relationship between microstructure and macrotexture of apple cultivars and morphological values for modeling apple parenchyma, contributing to numerical simulation for constitutive relation of fruit [15].",
+          "ref": 15,
+          "truth": "misattributed",
+          "true_source": 2,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "When the confining pressure ratio is greater than 1.6, the plastic area is butterfly shaped, and the elliptic boundary equation is no longer applicable [16].",
+          "ref": 16,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The results suggest that a brief 5-min nature photography activity can effectively reduce mental stress in Chinese university students [16].",
+          "ref": 16,
+          "truth": "misattributed",
+          "true_source": 3,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Organizations that want to strike a balance between structure and inspiration in cultivating a motivated and engaged workforce would do well to study the relationship between transactional leadership and employee motivation [17].",
+          "ref": 17,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "These results just provide a data point for pork producers to evaluate the actual risk of feed being a fomite of PRRSV, PEDV, PDCoV, and TGEV [17].",
+          "ref": 17,
+          "truth": "misattributed",
+          "true_source": 4,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "With refinement the methodology should also enable patterning of novel graphene electronic and optoelectronic devices [18].",
+          "ref": 18,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Conclusion We believe that a better knowledge and understanding of epidemiological changes in Italian society could improve our clinical practice, in particular, in order to better customize treatments and therapies [18].",
+          "ref": 18,
+          "truth": "misattributed",
+          "true_source": 5,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This article proposes yet another element of WBP, that of 'oxygen balance' [19].",
+          "ref": 19,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Some countries may gain if China's economy continues expanding, while others, like the United States, are the most sensitive to the trade policy of China [19].",
+          "ref": 19,
+          "truth": "misattributed",
+          "true_source": 6,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This paper describes the sensitivity of the Umkehr retrievals with respect to the proposed ozone cross-section changes [20].",
+          "ref": 20,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The overall findings of the study conclude that these five factors influence the adoption of e-learning technologies [20].",
+          "ref": 20,
+          "truth": "misattributed",
+          "true_source": 7,
+          "label": null,
+          "elsewhere": []
+        }
+      ]
+    },
+    "no_registry": {
+      "meta": {
+        "created": "2026-11-11T03:44:28+00:00",
+        "seconds": 0.0,
+        "network_calls": 0,
+        "registry": {},
+        "models": null
+      },
+      "summary": {
+        "references": 55,
+        "found": 44,
+        "not_found": 11,
+        "web_sources": 0,
+        "retracted": 15,
+        "concern": 0,
+        "disputed": 0,
+        "corrected": 0,
+        "no_abstract": 3,
+        "citing_sentences": 75,
+        "never_cited": 0,
+        "unmatched_markers": 0,
+        "claim_checks": {}
+      },
+      "metrics": {
+        "fabricated_flagged": {
+          "hit": 10,
+          "of": 10
+        },
+        "real_found_right_doi": {
+          "hit": 44,
+          "of": 45
+        },
+        "real_wrongly_not_found": {
+          "hit": 1,
+          "of": 45
+        },
+        "real_matched_wrong_doi": {
+          "hit": 0,
+          "of": 45
+        },
+        "near_miss_found_right_doi": {
+          "hit": 9,
+          "of": 10
+        },
+        "retracted_flagged": {
+          "hit": 15,
+          "of": 15
+        },
+        "clean_false_retraction_or_concern": {
+          "hit": 0,
+          "of": 30
+        }
+      },
+      "references": [
+        {
+          "number": 1,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 2,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 3,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 4,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 5,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 6,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 7,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 8,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 9,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 10,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 11,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 12,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 13,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 14,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 15,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 16,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 17,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 18,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 19,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 20,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 21,
+          "kind": "near_miss",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 22,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 23,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 24,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 25,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 26,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 27,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 28,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 29,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 30,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 31,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 32,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 33,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 34,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 35,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 36,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 37,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 38,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 39,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 40,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 41,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 42,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 43,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 44,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 45,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 46,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 47,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 48,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 49,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 50,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 51,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 52,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 53,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 54,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 55,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        }
+      ],
+      "claims": [
+        {
+          "sentence": "There are several hundred corrector (fast and slow) magnets and skew quadrupole magnets in storage ring and injector are powered by the same bipolar power converters [1].",
+          "ref": 1,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This novel XCC4471(GGDEF)-c-di-GMP complex structure may serve as a general model for the design of lead compounds to block the DGC activity of GGDEF-domain-containing proteins in X. campestris or other microorganisms that contain multiple GGDEF-domain proteins [1].",
+          "ref": 1,
+          "truth": "misattributed",
+          "true_source": 8,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This research could provide the comprehension about relationship between microstructure and macrotexture of apple cultivars and morphological values for modeling apple parenchyma, contributing to numerical simulation for constitutive relation of fruit [2].",
+          "ref": 2,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "However, compared with Cu/Ag joints with stable mechanical performance suffering aging at 250 \u00b0C, the shear strength of Cu/Zn degraded drastically up to 200 h, and after that it remained almost constant, which can be ascribed to the competitive growth between CuZn 5 and Cu 5 Zn 8 , resulting in collapse and oxidation of CuZn 5  [2].",
+          "ref": 2,
+          "truth": "misattributed",
+          "true_source": 9,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The results suggest that a brief 5-min nature photography activity can effectively reduce mental stress in Chinese university students [3].",
+          "ref": 3,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "These results implicate alternative targeting of MET or SRC as rational strategies for reversing cetuximab resistance in colon cancer [3].",
+          "ref": 3,
+          "truth": "misattributed",
+          "true_source": 10,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "These results just provide a data point for pork producers to evaluate the actual risk of feed being a fomite of PRRSV, PEDV, PDCoV, and TGEV [4].",
+          "ref": 4,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The over-arching application of this method beyond the study site will provide a platform for discussion that addresses the needs of site managers and the expectations of local communities [4].",
+          "ref": 4,
+          "truth": "misattributed",
+          "true_source": 11,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Conclusion We believe that a better knowledge and understanding of epidemiological changes in Italian society could improve our clinical practice, in particular, in order to better customize treatments and therapies [5].",
+          "ref": 5,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "DOI: https://doi.org/10.5826/dpc.1303a152 [5].",
+          "ref": 5,
+          "truth": "misattributed",
+          "true_source": 12,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Some countries may gain if China's economy continues expanding, while others, like the United States, are the most sensitive to the trade policy of China [6].",
+          "ref": 6,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "High levels of troponin in the blood, both before and after training or competition, may be associated with the presence of macrotroponin [6].",
+          "ref": 6,
+          "truth": "misattributed",
+          "true_source": 13,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The overall findings of the study conclude that these five factors influence the adoption of e-learning technologies [7].",
+          "ref": 7,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "IL-6 and IL-8 found to be increase along with tonsillitis severity i.e. the grade 3, 4 tonsillitis have high level of IL-6 and IL-8 [7].",
+          "ref": 7,
+          "truth": "misattributed",
+          "true_source": 14,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This novel XCC4471(GGDEF)-c-di-GMP complex structure may serve as a general model for the design of lead compounds to block the DGC activity of GGDEF-domain-containing proteins in X. campestris or other microorganisms that contain multiple GGDEF-domain proteins [8].",
+          "ref": 8,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "It is shown that on the basis of the existing domestic gas-turbine equipment, power plants for combined generation of electricity, heat, and cold can be created that are significantly superior in their performance to the best technologies in the world [8].",
+          "ref": 8,
+          "truth": "misattributed",
+          "true_source": 15,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "However, compared with Cu/Ag joints with stable mechanical performance suffering aging at 250 \u00b0C, the shear strength of Cu/Zn degraded drastically up to 200 h, and after that it remained almost constant, which can be ascribed to the competitive growth between CuZn 5 and Cu 5 Zn 8 , resulting in collapse and oxidation of CuZn 5  [9].",
+          "ref": 9,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "When the confining pressure ratio is greater than 1.6, the plastic area is butterfly shaped, and the elliptic boundary equation is no longer applicable [9].",
+          "ref": 9,
+          "truth": "misattributed",
+          "true_source": 16,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "These results implicate alternative targeting of MET or SRC as rational strategies for reversing cetuximab resistance in colon cancer [10].",
+          "ref": 10,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Organizations that want to strike a balance between structure and inspiration in cultivating a motivated and engaged workforce would do well to study the relationship between transactional leadership and employee motivation [10].",
+          "ref": 10,
+          "truth": "misattributed",
+          "true_source": 17,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The over-arching application of this method beyond the study site will provide a platform for discussion that addresses the needs of site managers and the expectations of local communities [11].",
+          "ref": 11,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "With refinement the methodology should also enable patterning of novel graphene electronic and optoelectronic devices [11].",
+          "ref": 11,
+          "truth": "misattributed",
+          "true_source": 18,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "DOI: https://doi.org/10.5826/dpc.1303a152 [12].",
+          "ref": 12,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This article proposes yet another element of WBP, that of 'oxygen balance' [12].",
+          "ref": 12,
+          "truth": "misattributed",
+          "true_source": 19,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "High levels of troponin in the blood, both before and after training or competition, may be associated with the presence of macrotroponin [13].",
+          "ref": 13,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This paper describes the sensitivity of the Umkehr retrievals with respect to the proposed ozone cross-section changes [13].",
+          "ref": 13,
+          "truth": "misattributed",
+          "true_source": 20,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "IL-6 and IL-8 found to be increase along with tonsillitis severity i.e. the grade 3, 4 tonsillitis have high level of IL-6 and IL-8 [14].",
+          "ref": 14,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "There are several hundred corrector (fast and slow) magnets and skew quadrupole magnets in storage ring and injector are powered by the same bipolar power converters [14].",
+          "ref": 14,
+          "truth": "misattributed",
+          "true_source": 1,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "It is shown that on the basis of the existing domestic gas-turbine equipment, power plants for combined generation of electricity, heat, and cold can be created that are significantly superior in their performance to the best technologies in the world [15].",
+          "ref": 15,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This research could provide the comprehension about relationship between microstructure and macrotexture of apple cultivars and morphological values for modeling apple parenchyma, contributing to numerical simulation for constitutive relation of fruit [15].",
+          "ref": 15,
+          "truth": "misattributed",
+          "true_source": 2,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "When the confining pressure ratio is greater than 1.6, the plastic area is butterfly shaped, and the elliptic boundary equation is no longer applicable [16].",
+          "ref": 16,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The results suggest that a brief 5-min nature photography activity can effectively reduce mental stress in Chinese university students [16].",
+          "ref": 16,
+          "truth": "misattributed",
+          "true_source": 3,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Organizations that want to strike a balance between structure and inspiration in cultivating a motivated and engaged workforce would do well to study the relationship between transactional leadership and employee motivation [17].",
+          "ref": 17,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "These results just provide a data point for pork producers to evaluate the actual risk of feed being a fomite of PRRSV, PEDV, PDCoV, and TGEV [17].",
+          "ref": 17,
+          "truth": "misattributed",
+          "true_source": 4,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "With refinement the methodology should also enable patterning of novel graphene electronic and optoelectronic devices [18].",
+          "ref": 18,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Conclusion We believe that a better knowledge and understanding of epidemiological changes in Italian society could improve our clinical practice, in particular, in order to better customize treatments and therapies [18].",
+          "ref": 18,
+          "truth": "misattributed",
+          "true_source": 5,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This article proposes yet another element of WBP, that of 'oxygen balance' [19].",
+          "ref": 19,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Some countries may gain if China's economy continues expanding, while others, like the United States, are the most sensitive to the trade policy of China [19].",
+          "ref": 19,
+          "truth": "misattributed",
+          "true_source": 6,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This paper describes the sensitivity of the Umkehr retrievals with respect to the proposed ozone cross-section changes [20].",
+          "ref": 20,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The overall findings of the study conclude that these five factors influence the adoption of e-learning technologies [20].",
+          "ref": 20,
+          "truth": "misattributed",
+          "true_source": 7,
+          "label": null,
+          "elsewhere": []
+        }
+      ]
+    }
+  }
+}

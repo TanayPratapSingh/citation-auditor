@@ -1,0 +1,1505 @@
+{
+  "created": "2026-11-11T03:44:22+00:00",
+  "cases": "evals/cases.json",
+  "seed": 20261110,
+  "configs": {
+    "full": {
+      "meta": {
+        "created": "2026-11-11T03:44:25+00:00",
+        "seconds": 3.1,
+        "network_calls": 3,
+        "registry": {
+          "source": "afterlife/data/gold/afterlife.duckdb",
+          "source_modified": "2026-10-29T20:12:36.156555+00:00",
+          "built": "2026-11-11T03:11:59.578726+00:00",
+          "rows": 92097,
+          "by_verdict": {
+            "retracted": 89576,
+            "concern": 1634,
+            "corrected": 634,
+            "disputed": 130,
+            "reinstated": 123
+          }
+        },
+        "models": null
+      },
+      "summary": {
+        "references": 55,
+        "found": 43,
+        "not_found": 12,
+        "web_sources": 0,
+        "retracted": 15,
+        "concern": 0,
+        "disputed": 0,
+        "corrected": 0,
+        "no_abstract": 5,
+        "citing_sentences": 75,
+        "never_cited": 0,
+        "unmatched_markers": 0,
+        "claim_checks": {}
+      },
+      "metrics": {
+        "fabricated_flagged": {
+          "hit": 10,
+          "of": 10
+        },
+        "real_found_right_doi": {
+          "hit": 43,
+          "of": 45
+        },
+        "real_wrongly_not_found": {
+          "hit": 2,
+          "of": 45
+        },
+        "real_matched_wrong_doi": {
+          "hit": 0,
+          "of": 45
+        },
+        "near_miss_found_right_doi": {
+          "hit": 8,
+          "of": 10
+        },
+        "retracted_flagged": {
+          "hit": 15,
+          "of": 15
+        },
+        "clean_false_retraction_or_concern": {
+          "hit": 0,
+          "of": 30
+        }
+      },
+      "references": [
+        {
+          "number": 1,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 2,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 3,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 4,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 5,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 6,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 7,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 8,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 9,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 10,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 11,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 12,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 13,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 14,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 15,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 16,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 17,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 18,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 19,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 20,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 21,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 22,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 23,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 24,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 25,
+          "kind": "near_miss",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 26,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 27,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 28,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 29,
+          "kind": "near_miss",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 30,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 31,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 32,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 33,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 34,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 35,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 36,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 37,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 38,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 39,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 40,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 41,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 42,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 43,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 44,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 45,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 46,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 47,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 48,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 49,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 50,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 51,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 52,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 53,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 54,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 55,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        }
+      ],
+      "claims": [
+        {
+          "sentence": "With the method proposed in this paper, the experimentally extracted winding resistances become more accurate and are in good agreement with the FE results [1].",
+          "ref": 1,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Current\u2013voltage curves for the DNA\u2013Pd wire can be measured between the DNA tweezers probes, and the resistivity of the DNA\u2013Pd wire was approximately 74 \u03a9 cm [1].",
+          "ref": 1,
+          "truth": "misattributed",
+          "true_source": 8,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Using notions, concepts, and results, we try to answer the question \\What is the atom?\" from a mathematical perspective, offering at the same time a series of possible interpretations and meanings that exceed its strict limits [2].",
+          "ref": 2,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The Web Browsable interface has been designed to provide high accessibility while taking aesthetic details into account, in order to prevent distraction caused by boredom of the user [2].",
+          "ref": 2,
+          "truth": "misattributed",
+          "true_source": 9,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "As a byproduct of the developed tools, we show that every parametrization of a Mather\u2019s minimal measure on \\mathbb T^n corresponds to a mass minimizing metric current on \\mathcal P_p(\\mathbb T^n) in its homology class [3].",
+          "ref": 3,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Our results provide important new insights into the occurrence of transgenerational effects and contribute to a better understanding of the context-dependency of these effects [3].",
+          "ref": 3,
+          "truth": "misattributed",
+          "true_source": 10,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This study concluded that the most common fetomaternal outcome was prematurity, low birth weight babies, partial HELLP syndrome, perinatal mortality, eclampsia and maternal mortality in patients with pre-eclampsia [4].",
+          "ref": 4,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The prevalence of abnormal umbilical arterial Doppler indices was high in apparently normal pregnancies mostly among women with low socio-economic status, with no demonstrable association with AFI [4].",
+          "ref": 4,
+          "truth": "misattributed",
+          "true_source": 11,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Patients with type II achalasia and 4s-IRP of 25 - 34 mmHg may experience more satisfactory remission after POEM [5].",
+          "ref": 5,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The current work brings us closer to both the development of programmable mechanical structures and the prediction of positioning errors during self-reconfiguration [5].",
+          "ref": 5,
+          "truth": "misattributed",
+          "true_source": 12,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Key Words: aldosterone, antidiuretic hormone, body fluids, electrolyte balance, hyponatremia, hypovolemia, osmolality, sodium transport, vasopressin [6].",
+          "ref": 6,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Very large studies that explicitly measure genetic exposures, nongenetic exposures, and outcomes on a massive scale may be a way to make progress, but they present several challenges to be surmounted [6].",
+          "ref": 6,
+          "truth": "misattributed",
+          "true_source": 13,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The accurate engineering of the trapping properties through the adjustment of the illumination parameters opens new perspectives in the realization of future optically driven on-a-chip devices [7].",
+          "ref": 7,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "According to the results of this study, MOOCs\u2019 network suffers from the lack of collaboration [7].",
+          "ref": 7,
+          "truth": "misattributed",
+          "true_source": 14,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Current\u2013voltage curves for the DNA\u2013Pd wire can be measured between the DNA tweezers probes, and the resistivity of the DNA\u2013Pd wire was approximately 74 \u03a9 cm [8].",
+          "ref": 8,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "In conclusion, overall the Critical Success Factor elements of road preservation project performance with a long segment scheme are quite influential on project success in the performance indicator slogan, namely with a proportion value of 47.5% [8].",
+          "ref": 8,
+          "truth": "misattributed",
+          "true_source": 15,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The Web Browsable interface has been designed to provide high accessibility while taking aesthetic details into account, in order to prevent distraction caused by boredom of the user [9].",
+          "ref": 9,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "A new mechanism to produce the dust in the presented debris disks, deviations from the conditions required for a standard equilibrium collisional cascade (grain size exponent of -3.5), and/or significantly different dust properties would be necessary to explain the potentially steep SED shape of the three debris disks presented [9].",
+          "ref": 9,
+          "truth": "misattributed",
+          "true_source": 16,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Our results provide important new insights into the occurrence of transgenerational effects and contribute to a better understanding of the context-dependency of these effects [10].",
+          "ref": 10,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "In addition we describe the major advances in the characterization and application of TIL therapy for patients with RCC and OC [10].",
+          "ref": 10,
+          "truth": "misattributed",
+          "true_source": 17,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The prevalence of abnormal umbilical arterial Doppler indices was high in apparently normal pregnancies mostly among women with low socio-economic status, with no demonstrable association with AFI [11].",
+          "ref": 11,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This paper examines Mohs' life, the evolution of MMS, and its lasting influence on dermatologic surgery, addressing both the challenges and advancements within the field [11].",
+          "ref": 11,
+          "truth": "misattributed",
+          "true_source": 18,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The current work brings us closer to both the development of programmable mechanical structures and the prediction of positioning errors during self-reconfiguration [12].",
+          "ref": 12,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The origins of the adaptive tuning effect were investigated at molecular level and were found to be governed by the nature of metal-chalcogen bond [12].",
+          "ref": 12,
+          "truth": "misattributed",
+          "true_source": 19,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Very large studies that explicitly measure genetic exposures, nongenetic exposures, and outcomes on a massive scale may be a way to make progress, but they present several challenges to be surmounted [13].",
+          "ref": 13,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "For the first time by using the pCWOri+ expression vector the mouse cytochrome P450 2E1 cDNA (with this modification) was cloned and its expression was obtained in E. coli [13].",
+          "ref": 13,
+          "truth": "misattributed",
+          "true_source": 20,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "According to the results of this study, MOOCs\u2019 network suffers from the lack of collaboration [14].",
+          "ref": 14,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "With the method proposed in this paper, the experimentally extracted winding resistances become more accurate and are in good agreement with the FE results [14].",
+          "ref": 14,
+          "truth": "misattributed",
+          "true_source": 1,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "In conclusion, overall the Critical Success Factor elements of road preservation project performance with a long segment scheme are quite influential on project success in the performance indicator slogan, namely with a proportion value of 47.5% [15].",
+          "ref": 15,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Using notions, concepts, and results, we try to answer the question \\What is the atom?\" from a mathematical perspective, offering at the same time a series of possible interpretations and meanings that exceed its strict limits [15].",
+          "ref": 15,
+          "truth": "misattributed",
+          "true_source": 2,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "A new mechanism to produce the dust in the presented debris disks, deviations from the conditions required for a standard equilibrium collisional cascade (grain size exponent of -3.5), and/or significantly different dust properties would be necessary to explain the potentially steep SED shape of the three debris disks presented [16].",
+          "ref": 16,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "As a byproduct of the developed tools, we show that every parametrization of a Mather\u2019s minimal measure on \\mathbb T^n corresponds to a mass minimizing metric current on \\mathcal P_p(\\mathbb T^n) in its homology class [16].",
+          "ref": 16,
+          "truth": "misattributed",
+          "true_source": 3,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "In addition we describe the major advances in the characterization and application of TIL therapy for patients with RCC and OC [17].",
+          "ref": 17,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This study concluded that the most common fetomaternal outcome was prematurity, low birth weight babies, partial HELLP syndrome, perinatal mortality, eclampsia and maternal mortality in patients with pre-eclampsia [17].",
+          "ref": 17,
+          "truth": "misattributed",
+          "true_source": 4,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This paper examines Mohs' life, the evolution of MMS, and its lasting influence on dermatologic surgery, addressing both the challenges and advancements within the field [18].",
+          "ref": 18,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Patients with type II achalasia and 4s-IRP of 25 - 34 mmHg may experience more satisfactory remission after POEM [18].",
+          "ref": 18,
+          "truth": "misattributed",
+          "true_source": 5,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The origins of the adaptive tuning effect were investigated at molecular level and were found to be governed by the nature of metal-chalcogen bond [19].",
+          "ref": 19,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Key Words: aldosterone, antidiuretic hormone, body fluids, electrolyte balance, hyponatremia, hypovolemia, osmolality, sodium transport, vasopressin [19].",
+          "ref": 19,
+          "truth": "misattributed",
+          "true_source": 6,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "For the first time by using the pCWOri+ expression vector the mouse cytochrome P450 2E1 cDNA (with this modification) was cloned and its expression was obtained in E. coli [20].",
+          "ref": 20,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The accurate engineering of the trapping properties through the adjustment of the illumination parameters opens new perspectives in the realization of future optically driven on-a-chip devices [20].",
+          "ref": 20,
+          "truth": "misattributed",
+          "true_source": 7,
+          "label": null,
+          "elsewhere": []
+        }
+      ]
+    },
+    "no_registry": {
+      "meta": {
+        "created": "2026-11-11T03:44:25+00:00",
+        "seconds": 0.0,
+        "network_calls": 0,
+        "registry": {},
+        "models": null
+      },
+      "summary": {
+        "references": 55,
+        "found": 43,
+        "not_found": 12,
+        "web_sources": 0,
+        "retracted": 15,
+        "concern": 0,
+        "disputed": 0,
+        "corrected": 0,
+        "no_abstract": 5,
+        "citing_sentences": 75,
+        "never_cited": 0,
+        "unmatched_markers": 0,
+        "claim_checks": {}
+      },
+      "metrics": {
+        "fabricated_flagged": {
+          "hit": 10,
+          "of": 10
+        },
+        "real_found_right_doi": {
+          "hit": 43,
+          "of": 45
+        },
+        "real_wrongly_not_found": {
+          "hit": 2,
+          "of": 45
+        },
+        "real_matched_wrong_doi": {
+          "hit": 0,
+          "of": 45
+        },
+        "near_miss_found_right_doi": {
+          "hit": 8,
+          "of": 10
+        },
+        "retracted_flagged": {
+          "hit": 15,
+          "of": 15
+        },
+        "clean_false_retraction_or_concern": {
+          "hit": 0,
+          "of": 30
+        }
+      },
+      "references": [
+        {
+          "number": 1,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 2,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 3,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 4,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 5,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 6,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 7,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 8,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 9,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 10,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 11,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 12,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 13,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 14,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 15,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 16,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 17,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 18,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 19,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 20,
+          "kind": "clean",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 21,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 22,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 23,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 24,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 25,
+          "kind": "near_miss",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 26,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 27,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 28,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 29,
+          "kind": "near_miss",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 30,
+          "kind": "near_miss",
+          "found": "found",
+          "status": "ok",
+          "doi_right": true
+        },
+        {
+          "number": 31,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 32,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 33,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 34,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 35,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 36,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 37,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 38,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 39,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 40,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 41,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 42,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 43,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 44,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 45,
+          "kind": "retracted",
+          "found": "found",
+          "status": "retracted",
+          "doi_right": true
+        },
+        {
+          "number": 46,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 47,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 48,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 49,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 50,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 51,
+          "kind": "fabricated",
+          "found": "not_found",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 52,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 53,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 54,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        },
+        {
+          "number": 55,
+          "kind": "fabricated",
+          "found": "doi_not_registered",
+          "status": "ok",
+          "doi_right": false
+        }
+      ],
+      "claims": [
+        {
+          "sentence": "With the method proposed in this paper, the experimentally extracted winding resistances become more accurate and are in good agreement with the FE results [1].",
+          "ref": 1,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Current\u2013voltage curves for the DNA\u2013Pd wire can be measured between the DNA tweezers probes, and the resistivity of the DNA\u2013Pd wire was approximately 74 \u03a9 cm [1].",
+          "ref": 1,
+          "truth": "misattributed",
+          "true_source": 8,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Using notions, concepts, and results, we try to answer the question \\What is the atom?\" from a mathematical perspective, offering at the same time a series of possible interpretations and meanings that exceed its strict limits [2].",
+          "ref": 2,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The Web Browsable interface has been designed to provide high accessibility while taking aesthetic details into account, in order to prevent distraction caused by boredom of the user [2].",
+          "ref": 2,
+          "truth": "misattributed",
+          "true_source": 9,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "As a byproduct of the developed tools, we show that every parametrization of a Mather\u2019s minimal measure on \\mathbb T^n corresponds to a mass minimizing metric current on \\mathcal P_p(\\mathbb T^n) in its homology class [3].",
+          "ref": 3,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Our results provide important new insights into the occurrence of transgenerational effects and contribute to a better understanding of the context-dependency of these effects [3].",
+          "ref": 3,
+          "truth": "misattributed",
+          "true_source": 10,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This study concluded that the most common fetomaternal outcome was prematurity, low birth weight babies, partial HELLP syndrome, perinatal mortality, eclampsia and maternal mortality in patients with pre-eclampsia [4].",
+          "ref": 4,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The prevalence of abnormal umbilical arterial Doppler indices was high in apparently normal pregnancies mostly among women with low socio-economic status, with no demonstrable association with AFI [4].",
+          "ref": 4,
+          "truth": "misattributed",
+          "true_source": 11,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Patients with type II achalasia and 4s-IRP of 25 - 34 mmHg may experience more satisfactory remission after POEM [5].",
+          "ref": 5,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The current work brings us closer to both the development of programmable mechanical structures and the prediction of positioning errors during self-reconfiguration [5].",
+          "ref": 5,
+          "truth": "misattributed",
+          "true_source": 12,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Key Words: aldosterone, antidiuretic hormone, body fluids, electrolyte balance, hyponatremia, hypovolemia, osmolality, sodium transport, vasopressin [6].",
+          "ref": 6,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Very large studies that explicitly measure genetic exposures, nongenetic exposures, and outcomes on a massive scale may be a way to make progress, but they present several challenges to be surmounted [6].",
+          "ref": 6,
+          "truth": "misattributed",
+          "true_source": 13,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The accurate engineering of the trapping properties through the adjustment of the illumination parameters opens new perspectives in the realization of future optically driven on-a-chip devices [7].",
+          "ref": 7,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "According to the results of this study, MOOCs\u2019 network suffers from the lack of collaboration [7].",
+          "ref": 7,
+          "truth": "misattributed",
+          "true_source": 14,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Current\u2013voltage curves for the DNA\u2013Pd wire can be measured between the DNA tweezers probes, and the resistivity of the DNA\u2013Pd wire was approximately 74 \u03a9 cm [8].",
+          "ref": 8,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "In conclusion, overall the Critical Success Factor elements of road preservation project performance with a long segment scheme are quite influential on project success in the performance indicator slogan, namely with a proportion value of 47.5% [8].",
+          "ref": 8,
+          "truth": "misattributed",
+          "true_source": 15,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The Web Browsable interface has been designed to provide high accessibility while taking aesthetic details into account, in order to prevent distraction caused by boredom of the user [9].",
+          "ref": 9,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "A new mechanism to produce the dust in the presented debris disks, deviations from the conditions required for a standard equilibrium collisional cascade (grain size exponent of -3.5), and/or significantly different dust properties would be necessary to explain the potentially steep SED shape of the three debris disks presented [9].",
+          "ref": 9,
+          "truth": "misattributed",
+          "true_source": 16,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Our results provide important new insights into the occurrence of transgenerational effects and contribute to a better understanding of the context-dependency of these effects [10].",
+          "ref": 10,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "In addition we describe the major advances in the characterization and application of TIL therapy for patients with RCC and OC [10].",
+          "ref": 10,
+          "truth": "misattributed",
+          "true_source": 17,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The prevalence of abnormal umbilical arterial Doppler indices was high in apparently normal pregnancies mostly among women with low socio-economic status, with no demonstrable association with AFI [11].",
+          "ref": 11,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This paper examines Mohs' life, the evolution of MMS, and its lasting influence on dermatologic surgery, addressing both the challenges and advancements within the field [11].",
+          "ref": 11,
+          "truth": "misattributed",
+          "true_source": 18,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The current work brings us closer to both the development of programmable mechanical structures and the prediction of positioning errors during self-reconfiguration [12].",
+          "ref": 12,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The origins of the adaptive tuning effect were investigated at molecular level and were found to be governed by the nature of metal-chalcogen bond [12].",
+          "ref": 12,
+          "truth": "misattributed",
+          "true_source": 19,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Very large studies that explicitly measure genetic exposures, nongenetic exposures, and outcomes on a massive scale may be a way to make progress, but they present several challenges to be surmounted [13].",
+          "ref": 13,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "For the first time by using the pCWOri+ expression vector the mouse cytochrome P450 2E1 cDNA (with this modification) was cloned and its expression was obtained in E. coli [13].",
+          "ref": 13,
+          "truth": "misattributed",
+          "true_source": 20,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "According to the results of this study, MOOCs\u2019 network suffers from the lack of collaboration [14].",
+          "ref": 14,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "With the method proposed in this paper, the experimentally extracted winding resistances become more accurate and are in good agreement with the FE results [14].",
+          "ref": 14,
+          "truth": "misattributed",
+          "true_source": 1,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "In conclusion, overall the Critical Success Factor elements of road preservation project performance with a long segment scheme are quite influential on project success in the performance indicator slogan, namely with a proportion value of 47.5% [15].",
+          "ref": 15,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Using notions, concepts, and results, we try to answer the question \\What is the atom?\" from a mathematical perspective, offering at the same time a series of possible interpretations and meanings that exceed its strict limits [15].",
+          "ref": 15,
+          "truth": "misattributed",
+          "true_source": 2,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "A new mechanism to produce the dust in the presented debris disks, deviations from the conditions required for a standard equilibrium collisional cascade (grain size exponent of -3.5), and/or significantly different dust properties would be necessary to explain the potentially steep SED shape of the three debris disks presented [16].",
+          "ref": 16,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "As a byproduct of the developed tools, we show that every parametrization of a Mather\u2019s minimal measure on \\mathbb T^n corresponds to a mass minimizing metric current on \\mathcal P_p(\\mathbb T^n) in its homology class [16].",
+          "ref": 16,
+          "truth": "misattributed",
+          "true_source": 3,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "In addition we describe the major advances in the characterization and application of TIL therapy for patients with RCC and OC [17].",
+          "ref": 17,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This study concluded that the most common fetomaternal outcome was prematurity, low birth weight babies, partial HELLP syndrome, perinatal mortality, eclampsia and maternal mortality in patients with pre-eclampsia [17].",
+          "ref": 17,
+          "truth": "misattributed",
+          "true_source": 4,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "This paper examines Mohs' life, the evolution of MMS, and its lasting influence on dermatologic surgery, addressing both the challenges and advancements within the field [18].",
+          "ref": 18,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Patients with type II achalasia and 4s-IRP of 25 - 34 mmHg may experience more satisfactory remission after POEM [18].",
+          "ref": 18,
+          "truth": "misattributed",
+          "true_source": 5,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The origins of the adaptive tuning effect were investigated at molecular level and were found to be governed by the nature of metal-chalcogen bond [19].",
+          "ref": 19,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "Key Words: aldosterone, antidiuretic hormone, body fluids, electrolyte balance, hyponatremia, hypovolemia, osmolality, sodium transport, vasopressin [19].",
+          "ref": 19,
+          "truth": "misattributed",
+          "true_source": 6,
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "For the first time by using the pCWOri+ expression vector the mouse cytochrome P450 2E1 cDNA (with this modification) was cloned and its expression was obtained in E. coli [20].",
+          "ref": 20,
+          "truth": "true",
+          "label": null,
+          "elsewhere": []
+        },
+        {
+          "sentence": "The accurate engineering of the trapping properties through the adjustment of the illumination parameters opens new perspectives in the realization of future optically driven on-a-chip devices [20].",
+          "ref": 20,
+          "truth": "misattributed",
+          "true_source": 7,
+          "label": null,
+          "elsewhere": []
+        }
+      ]
+    }
+  }
+}
