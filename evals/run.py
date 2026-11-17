@@ -36,9 +36,11 @@ def score(cases: dict, report: dict) -> dict:
                      "doi_right": bool(t["doi"] and r.get("doi") == t["doi"])})
     real = ("clean", "near_miss", "retracted")
     m = {
-        "fabricated_flagged": _count(rows, ("fabricated",), lambda x: x["found"] != "found"),
+        # lookup_failed means unknown, so it counts as neither flagged nor not found
+        "fabricated_flagged": _count(rows, ("fabricated",), lambda x: x["found"] not in ("found", "lookup_failed")),
         "real_found_right_doi": _count(rows, real, lambda x: x["found"] == "found" and x["doi_right"]),
-        "real_wrongly_not_found": _count(rows, real, lambda x: x["found"] != "found"),
+        "real_wrongly_not_found": _count(rows, real, lambda x: x["found"] not in ("found", "lookup_failed")),
+        "lookup_failed": _count(rows, ("fabricated",) + real, lambda x: x["found"] == "lookup_failed"),
         "real_matched_wrong_doi": _count(rows, real, lambda x: x["found"] == "found" and not x["doi_right"]),
         "near_miss_found_right_doi": _count(rows, ("near_miss",), lambda x: x["found"] == "found" and x["doi_right"]),
         "retracted_flagged": _count(rows, ("retracted",), lambda x: x["status"] == "retracted"),
