@@ -31,6 +31,7 @@ FOUND = {
     "not_found": ":red[Not found]",
     "doi_not_registered": ":red[DOI not registered]",
     "web_source": ":gray[Web source]",
+    "lookup_failed": ":orange[Lookup failed]",
 }
 CLAIM = {
     "supported": ":green[Abstract states this]",
@@ -157,6 +158,9 @@ def main() -> None:
     cols[5].metric("Not stated in abstract", (s["claim_checks"] or {}).get("not_stated", 0))
     st.caption(f"{report['meta']['draft']}, {report['meta']['seconds']} s, {report['meta']['network_calls']} network calls. "
                "\"Not found\" means not found in the sources listed, not that a reference is fake.")
+    if s.get("lookup_failed"):
+        st.warning(f"{s['lookup_failed']} reference(s) could not be checked because a lookup failed (rate limit or network). "
+                   "They are not counted as not found. Run the audit again later.")
     tab_refs, tab_claims = st.tabs(["References", "Claims"])
     with tab_refs:
         references(report)
