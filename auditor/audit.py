@@ -11,10 +11,13 @@ import time
 from collections import Counter
 from datetime import UTC, datetime
 from pathlib import Path
+from urllib.error import URLError
+from urllib.parse import urlsplit
 
+from auditor.http import HttpError
 from auditor.lookup import Lookup
 from auditor.parse import find_citations, split_references, split_sections
-from auditor.verify import Registry, check
+from auditor.verify import Checked, Registry, check
 
 LABELS = {
     "supported": "Abstract states this",
@@ -55,7 +58,12 @@ def run(text: str, lookup: Lookup | None = None, registry: Registry | None = Non
     checked = []
     for i, r in enumerate(refs):
         progress(i / max(len(refs), 1), f"Checking reference {r.number} of {len(refs)}")
-        checked.append(check(r, lookup, registry))
+        try:
+            checked.append(check(r, lookup, registry))
+        except (HttpError, URLError, TimeoutError, ConnectionError) as exc:
+            # An outage is not "not found"; host only, since the URL can carry OPENALEX_API_KEY into a report.
+            why = f"HTTP {exc.status} from {urlsplit(exc.url).netloc}" if isinstance(exc, HttpError) else str(exc)
+            checked.append(Checked(r.number, r.text, "lookup_failed", notes=[f"The lookup failed ({why})."]))
 
     citations = [
         {"sentence": c.sentence, "claim": c.claim, "refs": c.refs, "unmatched": c.unmatched,
@@ -81,6 +89,7 @@ def run(text: str, lookup: Lookup | None = None, registry: Registry | None = Non
         "found": sum(r["found"] == "found" for r in references),
         "not_found": sum(r["found"] in ("not_found", "doi_not_registered") for r in references),
         "web_sources": sum(r["found"] == "web_source" for r in references),
+        "lookup_failed": sum(r["found"] == "lookup_failed" for r in references),
         **{k: sum(r["status"] == k for r in references) for k in ("retracted", "concern", "disputed", "corrected")},
         "no_abstract": sum(r["found"] == "found" and not r["abstract"] for r in references),
         "citing_sentences": len(citations),
@@ -107,6 +116,8 @@ def describe(ref: dict) -> str:
     """One plain sentence about a reference, in the report's wording rules."""
     if ref["found"] == "web_source":
         return "Web source, not an indexed paper. " + " ".join(ref["notes"])
+    if ref["found"] == "lookup_failed":
+        return "Not checked: a lookup failed, so whether this paper exists is unknown. Run the audit again later. " + " ".join(ref["notes"])
     if ref["found"] != "found":
         searched = ", ".join(ref["searched"])
         why = " ".join(ref["notes"])
@@ -124,6 +135,7 @@ def markdown(report: dict) -> str:
         "# Citation audit",
         "",
         f"{s['references']} references, {s['found']} found, {s['not_found']} not found, "
+        f"{s.get('lookup_failed', 0)} not checked because a lookup failed, "
         f"{s['retracted']} retracted, {s['concern']} with an expression of concern. "
         f"{s['citing_sentences']} citing sentences.",
         "",

@@ -2,6 +2,8 @@
 
 from pathlib import Path
 
+from auditor import audit
+from auditor.http import HttpError
 from auditor.parse import Reference
 from auditor.verify import Registry, check
 
@@ -97,3 +99,20 @@ def test_near_miss_needs_the_author_to_match():
     text = "Milborrow, D. (2008). Qunatifying the of wind variability. Proceedings of the ICE - Energy."
     assert check(ref(text, None, 2008, "milborrow"), FakeLookup(search=[real]), NO_REGISTRY).found == "found"
     assert check(ref(text, None, 2008, "smith"), FakeLookup(search=[real]), NO_REGISTRY).found == "not_found"
+
+
+class RateLimited(FakeLookup):
+    def crossref_search(self, text, rows=5):
+        if "Second" in text:
+            raise HttpError("https://api.openalex.org/works?api_key=secret", 429)
+        return []
+
+
+def test_a_failed_lookup_is_reported_as_lookup_failed_not_as_not_found():
+    text = "Body cites [1] and [2].\n\nReferences\n1. Smith J. First paper on maize. 2021.\n2. Lee K. Second paper on rice. 2020.\n"
+    report = audit.run(text, lookup=RateLimited(), registry=NO_REGISTRY)
+    first, second = report["references"]
+    assert first["found"] == "not_found" and second["found"] == "lookup_failed"
+    assert report["summary"]["not_found"] == 1 and report["summary"]["lookup_failed"] == 1
+    assert "HTTP 429 from api.openalex.org" in second["notes"][0] and "secret" not in audit.markdown(report)
+    assert audit.describe(second).startswith("Not checked")

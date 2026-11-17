@@ -65,7 +65,7 @@ class Flag:
 class Checked:
     number: int
     text: str
-    found: str  # found | not_found | doi_not_registered | web_source
+    found: str  # found | not_found | doi_not_registered | web_source | lookup_failed
     how: str = ""  # doi | doi_other_agency | crossref_search | openalex_search
     doi: str | None = None
     title: str | None = None
